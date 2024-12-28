@@ -89,3 +89,11 @@ jn     ****0100[****]**** // jump if negative
 load   ****1000[****]**** // load from memory
 store  ****1001[****]**** // write to memory
 
+
+
+
+
+структура машинного кода
+[****](opcode) [****](jmp/load_store) [****](R0) [****](R1)
+
+
