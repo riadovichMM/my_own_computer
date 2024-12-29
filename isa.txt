@@ -102,3 +102,6 @@ D     1000
 JR    1001
 MAR   1010
 PAR   1011
+
+
+Архитектура с общей шиной типа SAP (Simple as Possible) (But how do it know)
