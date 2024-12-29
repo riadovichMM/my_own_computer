@@ -90,10 +90,15 @@ load   ****1000[****]**** // load from memory
 store  ****1001[****]**** // write to memory
 
 
-
-
-
 структура машинного кода
 [****](opcode) [****](jmp/load_store) [****](R0) [****](R1)
 
 
+R0    0000
+R1    0001
+R2    0010
+
+D     1000
+JR    1001
+MAR   1010
+PAR   1011
