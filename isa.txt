@@ -104,4 +104,5 @@ MAR   1010
 PAR   1011
 
 
+16-бит компьютер
 Архитектура с общей шиной типа SAP (Simple as Possible) (But how do it know)
