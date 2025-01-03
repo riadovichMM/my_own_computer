@@ -97,13 +97,14 @@ shl    0110************
 shr    0111************
 
 
-jmp    ****0000[****]**** // jump
-jz     ****0001[****]**** // jump if zero
-jnz    ****0010[****]**** // jump if not zero
-jp     ****0011[****]**** // jump if positive
-jn     ****0100[****]**** // jump if negative
-load   ****1000[****]**** // load from memory
-store  ****1001[****]**** // write to memory
+старшие биты долджны быть 0000
+jmp    0000 0001[****]**** // jump
+jz     0000 0010[****]**** // jump if zero
+jnz    0000 0011[****]**** // jump if not zero
+jp     0000 0100[****]**** // jump if positive
+jn     0000 0101[****]**** // jump if negative
+load   0000 1000[****]**** // load from memory
+store  0000 1001[****]**** // write to memory
 
 
 структура машинного кода
@@ -147,3 +148,6 @@ hex:
 0001
 0080
 3000
+4000
+
+
