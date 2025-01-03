@@ -1242,7 +1242,7 @@
       <a name="label" val="e_R0_B"/>
     </comp>
     <comp lib="0" loc="(1250,830)" name="Tunnel">
-      <a name="label" val="e_R0_B"/>
+      <a name="label" val="s_R0_B"/>
     </comp>
     <comp lib="0" loc="(130,5410)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -1431,7 +1431,7 @@
       <a name="label" val="e_R1_B"/>
     </comp>
     <comp lib="0" loc="(1620,830)" name="Tunnel">
-      <a name="label" val="e_R1_B"/>
+      <a name="label" val="s_R1_B"/>
     </comp>
     <comp lib="0" loc="(1660,1740)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -1637,7 +1637,7 @@
       <a name="label" val="e_R2_B"/>
     </comp>
     <comp lib="0" loc="(1950,830)" name="Tunnel">
-      <a name="label" val="e_R1_B"/>
+      <a name="label" val="s_R2_B"/>
     </comp>
     <comp lib="0" loc="(210,230)" name="Pin">
       <a name="appearance" val="classic"/>
